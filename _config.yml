@@ -2,3 +2,6 @@ theme: minima
 title: Refactored Doodle
 author: Urooj
 description: A journey of learning and building.
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
