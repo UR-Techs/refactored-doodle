@@ -7,4 +7,4 @@ baseurl: "/refactored-doodle"
 url: "https://UR-Techs.github.io"
 
 theme: minima
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
