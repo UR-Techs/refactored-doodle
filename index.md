@@ -28,9 +28,9 @@ title: Refactored Doodle
     <ul class="space-y-4">
       {% for post in site.posts limit:3 %}
       <li class="bg-white shadow-md p-6 rounded-xl">
-        <a href="{{ post.url }}" class="text-2xl font-semibold text-indigo-600 hover:underline">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="text-2xl font-semibold text-indigo-600 hover:underline">{{ post.title }}</a>
         <p class="text-gray-600 text-sm">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p class="mt-2 text-gray-800">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <p class="mt-2 text-gray-800">{{ post.excerpt | strip_html | truncate: 160 }}</p>        
       </li>
       {% endfor %}
     </ul>
