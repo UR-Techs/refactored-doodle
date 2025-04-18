@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World: The Start of Refactored Doodle"
+title: "Hello World – Refactored Doodle"
 date: 2025-04-18
 author: Urooj Rafiq
 categories: [intro, projects, thoughts]
