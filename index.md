@@ -38,7 +38,15 @@ title: Refactored Doodle
       <a href="/blog" class="text-indigo-600 font-semibold hover:underline">View All Posts →</a>
     </div>
   </div>
+  <h2>Debug: All Posts</h2>
+<ul>
+  {% for post in site.posts %}
+    <li><code>{{ post.url }}</code> — {{ post.title }}</li>
+  {% endfor %}
+</ul>
+
 </section>
+
 
 <!-- Projects Section -->
 <section class="max-w-4xl mx-auto py-12 px-4">
