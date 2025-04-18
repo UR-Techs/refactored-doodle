@@ -1,7 +1,9 @@
-theme: minima
 title: Refactored Doodle
-author: Urooj
-description: A journey of learning and building.
-markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
+email: uroojrafiq17@gmail.com
+description: >- 
+  Experiments in creativity, code, and curiosity.
+baseurl: "/refactored-doodle" # only if your repo is not your GitHub username
+url: "https://UR-Techs.github.io"
 
+theme: minima
+permalink: /:categories/:year/:month/:day/:title/
