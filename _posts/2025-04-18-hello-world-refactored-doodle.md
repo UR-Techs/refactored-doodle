@@ -3,7 +3,7 @@ layout: post
 title: "Hello World – Refactored Doodle"
 date: 2025-04-18
 author: Urooj Rafiq
-categories: [intro, projects, thoughts]
+categories: intro
 tags: [portfolio, blog, github, tailwind, webdev]
 ---
 
