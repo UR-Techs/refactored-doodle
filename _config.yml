@@ -2,7 +2,8 @@ title: Refactored Doodle
 email: uroojrafiq17@gmail.com
 description: >- 
   Experiments in creativity, code, and curiosity.
-baseurl: "/refactored-doodle" # only if your repo is not your GitHub username
+baseurl: "/refactored-doodle"
+# only if your repo is not your GitHub username
 url: "https://UR-Techs.github.io"
 
 theme: minima
